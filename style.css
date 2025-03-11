@@ -1,0 +1,177 @@
+/*{;} TEMPLATE INFO ℹ️
+
+    Theme Name: De Web Developer
+    Theme URI: https://www.dewebdeveloper.nl/
+    Author: Bouke Lourens
+    Author URI: https://www.dewebdeveloper.nl/bouke-lourens-ceo-webontwikkelaar/
+    Description: Dit child theme is ontwikkeld door De Web Developer en gebaseerd op het oorspronkelijke framework van het Storefront-thema, gemaakt door de ontwikkelaars van WooCommerce. Het hoofdthema is geoptimaliseerd voor snelheid, schoon opgebouwd in de code en biedt uitgebreide mogelijkheden voor WooCommerce-webshops. Daarnaast is dit child theme ook uitstekend geschikt voor informatieve websites.Baseline is strak vormgegeven en bevat diverse optimalisaties en bugfixes. Het thema is inclusief FontAwesome, Classic Builder Blocks, SiteOrigin en jQuery. De footer genereert automatisch de datum en sitenaam.📅 Eerste release (versie 1.0): 01/09/2021
+    License: GNU General Public License v3 or later
+    License URI: license.txt
+    Requires PHP: 5.6.0
+    Tags: storefront, maatwerk, websites, webshops, 1:1design, amsterdam, noord-holland, child-theme, logodesign, dtp, grafische, vormgeving, siteorigin, aos, fontawesome, woocommerce, bouke, lourens, seo, zoekmachine, optimalisatie, jquery, php, snippet, cookies, banner, header, headings, devs, websitebuilder, guru, linux
+    Text Domain: dewebdeveloper
+    Template: storefront
+    Version: 1.2.2
+
+-- */
+
+/*{;} UPDATE GESCHIEDENIS ℹ️
+
+    Laatst bewerkt door: Bouke lourens
+    Updates: 11/03/2025 03:44PM
+
+-- */
+
+/*{;} IMPORT ++ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+
+	--dwsd-color-magenta: #EC008D;
+
+}
+
+/*{;} GENERAL -- */
+html { scroll-behavior: smooth; }
+body, button, input, textarea { font-family: 'Roboto', sans-serif; }
+a:focus, button:focus, .button.alt:focus, input:focus, textarea:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, input[type="email"]:focus,
+input[type="tel"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus { outline-color: transparent; } /* Paarse markering bij a:focus weghalen */
+#main { min-height: calc(100vh - 375px); }/* Footer vastzetten met een minimum height */
+
+/*{;} HEADINGS -- */
+.entry-title {
+	color: #C40069;
+}
+
+h1, .alpha {
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+h2, .beta {
+	font-size: 1.7rem;
+	font-weight: 600;
+}
+
+h2 + h3, .beta + h3 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	border-top: 0;
+}
+
+h4, .delta {
+	font-size: 1.25rem;
+}
+
+h5, .h5 {
+	font-size: 1rem;
+}
+
+h6, .h6 {
+	font-size: .8rem;
+}
+
+/*{;} BUTTONS -- */
+button { background: #C40069; color: #FFF; }
+button:hover { background: RGB(196, 0, 105, 0.15); color: #C40069; transition: .5s; }
+
+/*{;} LINKS -- */
+a { color: #0000FF; }
+
+/*{;} TABELLEN -- */
+
+/*{;} LIST ITEMS -- */
+.widget ul { list-style: square; margin: 0 30px; }
+.widget ul li { padding: .25em 0; }
+ol li { padding: .25em 0; }
+ol { margin: 0 30px; }
+
+/*{;} CONTAINERS -- */
+
+/*{;} HEADER -- */
+
+/*{;} NAVIGATIE -- */
+
+
+
+
+/*{;} HOMEPAGE -- */
+
+/*{;} DWSD-SECTION-HERO -- */
+
+/*{;} DWSD-SECTION-ROW-MAIN -- */
+
+/*{;} DWSD-SECTION-ROW-1 -- */
+
+/*{;} DWSD-SECTION-ROW-2 -- */
+
+
+
+
+/*{;} FOLLOW UP PAGES -- */
+
+/*{;} DWSD-FOUP-SECTION-HERO -- */
+
+/*{;} DWSD-FOUP-SECTION-MAIN -- */
+
+/*{;} DWSD-FOUP-SECTION-1 -- */
+
+/*{;} DWSD-FOUP-SECTION-2 -- */
+
+
+
+
+/*{;} FOOTER -- */
+.site-info img { display: inline-block; border-radius: 0; position: relative; top: 2px; }
+#colophon .site-info a { text-decoration: none; color: #6d6d6d; }
+.site-footer { background-color: RGB(196, 0, 105, 0.15); color: #000; padding: 0; }
+.site-info, #colophon .site-info a { color: #000; font-size: .85rem; padding: 10px; }
+
+
+
+/*{;} -----  [ MEDIA QUERIES ] ------- */
+@media (min-width: 1400px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+@media (min-width: 993px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+  button.menu-toggle, button.menu-toggle:hover { border-color: transparent; }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+@media (min-width: 400px) and (max-width: 480px) {
+
+}
+
+@media (min-width: 320px) and (max-width: 399px) {
+
+}
+
+
+/*{;} ANIMATIES ++ */
+
+/*
+Einde van dit CSS bestand. Merk je enige bugs op? Meldt het ons dan via workaround@dewebdeveloper.nl!
+© 2020 - 2025 - De Web Developer Amsterdam - V1.2.1
+*/
